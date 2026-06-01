@@ -1,0 +1,10 @@
+# Java / Maven
+target/
+*.class
+# Node
+node_modules/
+dist/
+# divers
+.env
+.DS_Store
+*.log
