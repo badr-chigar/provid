@@ -24,7 +24,7 @@ Boutique en ligne de compléments alimentaires avec **espace client** (catalogue
 - Catalogue de produits filtrable par catégorie (protéines, vitamines, énergie, minceur).
 - Panier persistant (localStorage) avec quantités.
 - Passage de commande → décrément automatique du stock côté serveur.
-- Recommandations nutrition (endpoint prêt pour l'**API Google Gemini**).
+- **Conseil nutrition par IA** : appel réel à l'**API Google Gemini** (`/api/conseil`), avec repli automatique si la clé n'est pas configurée.
 
 **Espace administrateur**
 - Authentification (rôle `ADMIN`).
